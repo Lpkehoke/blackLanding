@@ -1,0 +1,98 @@
+@media screen and (max-width: 1140px) {
+	.__loyaut {
+		max-width: 960px;
+	}
+
+	.header-baner-section {
+		height: 50vw !important;
+	}
+}
+
+@media screen and (max-width: 1140px) {
+	.__loyaut {
+		max-width: 720px;
+	}
+
+	h1 {
+		font-size: em(80);
+	}
+
+	html body .wrapper .main-part .what-we-do {
+		background-position: -300px;
+	}
+
+	.contact__contact-us {
+		width: 100% !important;
+	}
+
+	.contact__email-us {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.__loyaut {
+		max-width: 540px;
+	}
+
+	h2,
+	h1 {
+		font-size: 36px !important;
+	}
+
+	html body .wrapper .main-part .contact .contact__contact-us .one-adress {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.__loyaut {
+		max-width: 400px;
+	}
+
+	html body .wrapper .main-part .about-section {
+		flex-direction: column;
+	}
+
+	html body .wrapper .main-part .about-section div {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	html body .wrapper .main-part .what-we-do .what-we-do-iner .what-we-do__wrapper-span span {
+		color: black;
+	}
+
+	html body .wrapper .main-part .home-decore-slider {
+		flex-wrap: wrap;
+
+		div {
+			width: 50%;
+		}
+	}
+
+	html body .wrapper .main-part .contact {
+		flex-wrap: wrap;
+	}
+
+	html body .wrapper .main-part .contact .contact__email-us {
+		padding-top: 50px;
+	}
+
+	html body .wrapper .main-part .header-baner-section .header-banner__iner div:first-child {
+		font-size: 20px;
+	}
+
+	html body .wrapper .iner-header .header__socialWeb ul i, html body .wrapper .iner-footer .header__socialWeb ul i {
+		padding: 0 2px;
+	}
+
+	html body .wrapper .iner-header .header__socialWeb, html body .wrapper .iner-footer .header__socialWeb {
+		width: 15%;
+	}
+
+	html body .wrapper .iner-header .header__nav, html body .wrapper .iner-footer .header__nav {
+		width: 60%;
+		font-size: 16px;
+	}
+}
